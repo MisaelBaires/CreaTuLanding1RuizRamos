@@ -1,0 +1,48 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(50, 47, 53);
+  margin: 0;
+  color: #f5f6f7;
+  font-family: Verdana, sans-serif;
+}
+/*Estos elementos serían el estilo de lo que podría estar adentro del posible div"*/
+header {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(50, 47, 53);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+}
+
+h1 {
+  color: #f5f6f7;
+  font-size: min(5vw, 1.2em);
+  text-align: center;
+}
+
+h2,
+footer {
+  text-align: center;
+}
+
+main {
+  padding-top: 50px;
+}
+a {
+  color: #f5f6f7;
+}
+
+a:visited {
+  color: #f5f6f7;
+}
+
+a:active {
+  color: rgb(231, 111, 131);
+}
+
+a:hover {
+  color: rgb(231, 111, 131);
+}

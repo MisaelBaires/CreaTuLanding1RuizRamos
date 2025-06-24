@@ -1,0 +1,16 @@
+.galeria {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto 10px;
+  margin-bottom: 5px;
+  padding-top: 20px;
+}
+
+.galeria img {
+  width: 240px;
+  height: 330px;
+  border-radius: 5px;
+}
